@@ -23,12 +23,11 @@ Default cybersecurity and pentesting bookmarks from Parrot OS Firefox profiles. 
 7. Choose the `parrot-bookmarks.html` file you just downloaded and click **Open**.
 
 ---
-
 ### Method 2: Download via Terminal (Linux/Mac)
 
 Run this one-liner to download the bookmark file directly to your `Downloads` directory:
 
 ```bash
-curl -Lo ~/Downloads/parrot-bookmarks.html https://githubusercontent.com
+curl -Lo ~/Downloads/parrot-bookmarks.html https://raw.githubusercontent.com/TechieEngineer/parrot-cybersec-bookmarks/refs/heads/main/parrot-bookmarks.html
 ```
 *(Note: Remember to manually import the file into Firefox using `Ctrl + Shift + O` after downloading!)*
